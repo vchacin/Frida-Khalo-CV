@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url(bg.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #cccccc;
+    height: auto;
+    margin: 0;
+    color: #1E2C50;
+}
+
+main {
+    width: 70%;
+    height: auto;
+    background: linear-gradient(180deg, #FFCB89 0%, #91CAD5 100%);
+    margin: 50px auto 0;
+
+    box-shadow: 50px 50px 60px rgba(0, 0, 0, 0.25);
+}
+
+/*PHOTO*/
+
+.photo {
+    text-align: center;
+    margin: 0;
+    /*position: relative;*/
+}
+
+.background-lines {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+
+    background: url(lines.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    mix-blend-mode: overlay;
+}
+
+.profile {
+    border-radius: 100%;
+    /*width: 50%;
+    margin: 10px auto;
+    padding: 40px;*/
+    /*position: absolute;
+    top: 30px;
+    left: 40px;
+    z-index: 1;*/
+}
+
+
+/*NAME*/
+
+.name {
+    background-color: #FFCE8E;
+}
+
+.rec-orange {
+    background-color: #FFDEB4;
+}
+
+.rec-black {
+    border: 4px solid  #1E2C50;
+}
+
+.name h1 {
+    letter-spacing: 3px;
+}
+
+.name h2 {
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.name-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.name-contact div {
+    text-align: left;
+}
+
+
+.w-experience {
+    display: flex;
+    justify-content: space-between;
+}
